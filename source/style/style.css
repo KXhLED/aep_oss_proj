@@ -8,10 +8,15 @@
 .max-width {
     width: 80%;
     align-items: center;
+    justify-content: center;
     min-width: max-content;
     max-width: 1000px;
     display: flex;
-    justify-content: space-between;
+}
+
+.btn {
+  font-family: Arial, 'Helvetica', sans-serif;
+  font-weight: bold;
 }
 
 #motd-banner > div > * {
@@ -22,7 +27,6 @@
     font-family: Arial, 'Helvetica', sans-serif;
     font-size: 12px;
     font-weight: bold;
-    
 }
 
 #motd-close-btn{
@@ -33,6 +37,61 @@
     background-color: transparent;
     border: none;
 }
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: solid 1px black;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  border: solid 2px black;
+}
+
+/* container <div> - position of Dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  border: 2px solid black;
+  min-width: 230px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid lightgray;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu (JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -77,14 +136,16 @@ body {
   
   h3 {
     margin-top: 0; /* Verhindert den oberen Abstand des h2-Elements */
-    font-weight: 900;
-    font-size: 25px;
+    font-weight: 600;
+    font-size: 40px;
   }
   
   /* Stil für die Überschrift */
   .navbar h4 {
-    color: rgb(122, 50, 206); /* Textfarbe für die Überschrift ändern */
+    color: #6328e0;; /* Textfarbe für die Überschrift ändern */
     margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 700;
   }
   
   /* Styling für die Navigationsleiste */

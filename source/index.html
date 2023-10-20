@@ -10,10 +10,9 @@
       integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
-    
-    <link rel="stylesheet" href="css/bootstrap-breakpoint.css" />
     <title>Sneaker für Damen online kaufen | Mach's dir bequem | ZALANDO</title>
     <link rel="stylesheet" href="./style/style.css" />
+    <script type="text/javascript" src="./script/script.js"></script> 
   </head>
   <body>
     <nav>
@@ -24,14 +23,51 @@
         </div>
       </div>
       <div>
-        <button type="button" class="btn btn-dark">Damen</button>
-        <button type="button" class="btn btn-light">Herren</button>
-        <button type="button" class="btn btn-light">Kinder</button>
+        <button type="button" class="btn btn-dark rounded-0 textbold" id="damen" onclick="toggleButtons('damen')">Damen</button>
+        <button type="button" class="btn btn-light rounded-0 textbold" id="herren" onclick="toggleButtons('herren')">Herren</button>
+        <button type="button" class="btn btn-light rounded-0 textbold" id="kinder" onclick="toggleButtons('kinder')">Kinder</button>
     
-        <button>zalando logo</button>
-        <button>Entdecke PLUS</button>
+        <img src="./images/Zalando-Logo-300x84.png" onclick="" alt="zalando">
+        <div class="vr"></div>
+        <span>Entdecke</span> 
+        <svg xmlns="http://www.w3.org/2000/svg" width="69" height="28" fill="none" viewBox="0 0 69 28" class="b69iQl _5Yd-hZ _3LATVU" aria-hidden="true" style="width:auto;height:16px;margin-bottom:2px">
+          <path fill="#1A1A1A" fill-rule="evenodd" d="M11.87 2h45.172a12 12 0 0 1 0 24H11.87a12 12 0 0 1 0-24zm.592 14.195h3.902v-.005c2.903 0 5.253-2.216 5.253-4.95s-2.35-4.95-5.253-4.95H9.538v7.27l-5.427-.008v2.638h5.427v5.526h2.924v-5.52zm11.11 5.52H33.84V19.09h-7.342V6.29h-2.924v15.426zm17.582.326c4.007 0 6.454-2.166 6.454-6.13V6.29h-2.924v9.631c0 2.361-1.277 3.575-3.53 3.575s-3.53-1.214-3.53-3.575V6.29h-2.925v9.621c0 3.921 2.491 6.13 6.455 6.13zm8.013-5.414c.023 3.529 2.447 5.435 6.606 5.435l.006-.006c3.898 0 6.237-1.71 6.226-4.745 0-2.491-1.493-3.861-5.11-4.57l-1.343-.26c-2.274-.452-3.01-1.037-3.01-2.272 0-1.195.953-1.905 2.771-1.905 2.346 0 3.298.845 3.407 2.577h2.84c-.108-3.054-2.123-4.938-6.28-4.938-3.617 0-5.718 1.732-5.718 4.353 0 2.497 1.645 4.055 4.96 4.684l1.298.26c2.361.498 3.163 1.018 3.163 2.23 0 1.452-1.11 2.232-3.123 2.232-2.36 0-3.79-.804-3.813-3.075h-2.88zM12.462 8.91h3.76c1.367 0 2.475 1.038 2.475 2.325 0 1.288-1.108 2.33-2.475 2.33h-3.76V8.91z" clip-rule="evenodd">
+          </path>
+        </svg>
 
-        <button>language</button>
+
+        <!--Language selection-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">language</button>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                ...
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+                
+
+
+
+
+
+
+
+
         <button>Login</button>
         <button>Wish List</button>
         <button>Warenkorb</button>
@@ -54,7 +90,7 @@
 
 
     </nav>
-    
+
     <ul class="breadcrumb">
       <li><a href="#">Damen</a></li>
       <li><a href="#">Schuhe</a></li>
@@ -62,7 +98,10 @@
     <h3>Schuhe für Damen</h3>
 
     <div class="navbar">
-      <h4>Schuhe</h4>
+      <div class="navbar">
+          <div class="col-md-8">
+            <h4>Schuhe</h4>
+          </div>      
       <ul>
         <li><a href="#">Sneaker</a></li>
         <li><a href="#">Sandalen</a></li>
@@ -80,6 +119,83 @@
         <li><a href="#">Outdoor Schuhe</a></li>
         <li><a href="#">Schuhzubehör</a></li>
       </ul>
+    </div>
+
+    
+  <div class="row">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="" alt="bild">
+        <div class="card-body">
+          <p class="card-text">Puma SMASH - Sneaker low - white</p>
+          <p class="card-text">ab 54,94 € Ursprünglich: 59,99 € bis zu -8%</p>
+        </div>
+      </div>
+
+
+      <div class="row">
+          <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="" alt="bild">
+              <div class="card-body">
+                <p class="card-text">Puma SMASH - Sneaker low - white</p>
+                <p class="card-text">ab 54,94 € Ursprünglich: 59,99 € bis zu -8%</p>
+              </div>
+            </div>
+
+
+            <div class="row">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="" alt="bild">
+                    <div class="card-body">
+                      <p class="card-text">Puma SMASH - Sneaker low - white</p>
+                      <p class="card-text">ab 54,94 € Ursprünglich: 59,99 € bis zu -8%</p>
+                    </div>
+                  </div>
+
+    <!--Filterbuttons Anja*-->
+    <div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">
+        Sortieren nach <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="index.html">Beliebteste</a>
+        <a href="index.html">Neuerscheinungen</a>
+        <a href="index.html">Niedrigster Preis</a>
+        <a href="index.html">Höchster Preis</a>
+        <a href="index.html">Angebote</a>
+      </div>
+      <button onclick="" class="dropbtn">
+        Größe <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Marke <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Kampagnen <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Nachhaltigkeit <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Preis <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Farbe <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Schnäppchen <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Obermaterial <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Absatzform <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button onclick="" class="dropbtn">
+        Saison <img id="myImage" src="./images/pfeil-nach-unten.png" alt="">
+      </button>
+      <button style="font-weight: bold;" onclick="" class="dropbtn">
+        <img id="myImage" src="./images/Filter.png" alt=""> Mehr Filter
+      </button>
     </div>
   </body>
 
