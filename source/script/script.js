@@ -12,11 +12,6 @@ function myFunction() {
   }
 }
 
-
-
-
-
-
 function toggleButtons(btnid) {
 
     array = ["herren", "damen", "kinder"]
@@ -39,10 +34,10 @@ function toggleButtons(btnid) {
 
 function openLanguageSelector() {
   // Get the modal
-  var modal = document.getElementById("myModal");
+  var modal = document.getElementById("language");
         
   // Get the button that opens the modal
-  var btn = document.getElementById("myBtn");
+  var btn = document.getElementById("language-button");
   
   // Get the <span> element that closes the modal
   var span = document.getElementsByClassName("close")[0];
