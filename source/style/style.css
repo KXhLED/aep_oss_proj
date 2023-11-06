@@ -28,17 +28,22 @@
   /* Alignement */
   .nav-right-aligned {
     margin-left: auto;
-    margin-right: 300px;
+    margin-right: 225px;
     display: flex;
   }
 
   .nav-left-aligned {
-    margin-left: 300px;
+    margin-left: 225px;
   }
 
   #nav-searchform {
     height: 50px;
     width: 300px;
+  }
+
+  /* Sites */
+  #cartSite {
+    display: none;
   }
 
 /* /Kai */
@@ -50,6 +55,9 @@
     background-color: rgb(210, 69, 30);
 }
 
+#language-modal-content{
+  width: 390px !important;
+}
 
 
 .max-width {
@@ -85,6 +93,8 @@
     border: none;
 }
 
+
+/*Anja*/
 /* Dropdown Button */
 .dropbtn {
   background-color: white;
@@ -138,6 +148,8 @@
 .show {
   display: block;
 }
+/*Anja*/
+
 
 
 body {
@@ -227,7 +239,6 @@ body {
   .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
     padding-top: 100px; /* Location of the box */
     left: 0;
     top: 0;
@@ -315,3 +326,28 @@ body {
   height: 50px;
 }
 
+.card-titel {
+  font: 20px 'Tiempos', 'Times New Roman', serif;
+}
+.card-text {
+  font: 20px 'HelveticaNow', 'Helvetica', sans-serif;
+}
+.card-titel,
+.card-text1 {
+  margin: 0; 
+}
+.card-text2 {
+  font: 18px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin-top: 5px; 
+  color: red; 
+}
+.card-text3 {
+  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin: 0;
+  text-decoration: line-through; 
+}
+.card-text4 {
+  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin: 0;
+  color: red; 
+}
