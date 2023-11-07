@@ -102,3 +102,7 @@ function openMain() {
   document.getElementById("cartSite").style.display = "none";
   document.getElementById("mainSite").style.display = "block";
 }
+
+function openLogin() {
+  window.location.href = ".\\login.html";
+}
