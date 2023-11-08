@@ -118,6 +118,9 @@
   border: solid 2px black;
 }
 
+.dropdown {
+  padding-top: 15%;
+}
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -179,19 +182,27 @@ td {
   padding-bottom: 15px;
 }
 
+.artikelAnzahl {
+  padding-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+  font-weight: bold;
+  color: #696969;
+}
+
 /*/Anja*/
-
-
 
 body {
     font-family: Arial, Helvetica, sans-serif;
   }
   
   ul.breadcrumb {
-    padding: 20px 16px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     list-style: none;
     background-color: white;
     margin-bottom: 0; /* Verhindert den unteren Abstand der ul.breadcrumb */
+    margin-left: -50px;
     text-align: start;
     font-weight: 700;
     display: flex;
@@ -231,6 +242,9 @@ body {
     font-size: 40px;
   }
   
+  .navList{
+    margin-left: -50px;
+  }
   /* Stil für die Überschrift */
   .navbar h4 {
     color: #6328e0;; /* Textfarbe für die Überschrift ändern */
@@ -382,235 +396,4 @@ body {
   font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
   margin: 0;
   color: red; 
-}
-
-/* für die zweite Seite  */ 
-
-/* CIN */
-
-.card-titel {
-  font: 30px "Tiempos", "Times New Roman", serif;
-}
-
-.card-titel,
-.card-text1 {
-  margin: 0;
-}
-
-.card-text2 {
-  font: 22px "HelveticaNow", "Helvetica", sans-serif;
-  color: red;
-  margin-top: 10px;
-}
-p {
-  margin: 0; /* Abstand zwischen <p> und <span> auf 0 setzen */
-}
-.card-text22 {
-  font: 14px "HelveticaNow", "Helvetica", sans-serif;
-  color: gray;
-  margin: 0;
-}
-
-.card-text3 .card-text33 .card-text4 {
-  font: 14px "HelveticaNow", "Helvetica", sans-serif;
-  margin-top: 0;
-  margin: 0;
-}
-
-.card-text3 {
-  color: gray;
-}
-.card-text33 {
-  color: gray;
-  text-decoration: line-through;
-}
-.card-text4 {
-  color: red;
-}
-
-.color-choice {
-  margin-top: 15;
-}
-
-/* CIN */
-
-html {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-.gallery-container {
-  padding: 20px;
-}
-.thumbnail-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 1200px; /* Angepasste Höhe für Demo-Zwecke */
-}
-.thumbnail img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-.arrow {
-  text-align: center;
-  cursor: pointer;
-}
-.arrow svg {
-  fill: #000;
-}
-.main-image {
-  height: 1200px; /* Höhe des Hauptbildes */
-  object-fit: cover;
-  width: 130%;
-}
-
-.navbar {
-  background-color: #fff; /* Weißer Hintergrund */
-  padding-bottom: 10px; /* Zusätzlicher Abstand nach unten */
-}
-
-.navbar-brand {
-  font-size: 1.5rem; /* Anpassung der Größe des Logos */
-  color: #cc0000; /* Farbe des OTTO-Logos */
-  font-weight: bold; /* Fett gedruckt */
-  font-family: "Audiowide", sans-serif;
-}
-
-/* Stil der Suchleiste anpassen */
-.search-box {
-  flex-grow: 1; /* Suchfeld soll flexibel sein */
-  margin: 10px; /* Etwas Abstand */
-  padding: 5px 10px; /* Innenabstand für die Textbox */
-  font-size: 1rem; /* Schriftgröße der Platzhalter */
-}
-
-/* Stil der Listenelemente ohne Icons */
-.nav-item {
-  padding: 0 15px; /* Abstand zwischen den Listenelementen */
-  color: #333; /* Dunkelgraue Schriftfarbe */
-  text-decoration: none; /* Keine Unterstreichung */
-  font-size: 1rem; /* Schriftgröße anpassen */
-  white-space: nowrap; /* Verhindert Umbruch des Texts */
-}
-
-/* Stil für die Hauptnavigation */
-.main-nav {
-  display: flex;
-  justify-content: center; /* Zentriert die Links */
-  flex-wrap: wrap; /* Erlaubt Umbruch auf eine neue Zeile */
-}
-
-/* Abstände und Stil für die Navigationslinks */
-.nav-link {
-  color: #666; /* Dunkelgraue Schriftfarbe */
-  margin: 5px 15px; /* Abstände */
-  font-size: 0.9rem; /* Etwas kleinere Schriftgröße */
-}
-
-/* Flex Container für Logo, Suchleiste und Navigationslinks */
-.top-nav {
-  display: flex; /* Erstellt ein Flex-Container */
-  align-items: center; /* Zentriert die Inhalte vertikal */
-  justify-content: start; /* Beginnt Inhalte am Anfang */
-}
-
-.gallery-container {
-  padding: 20px;
-}
-.thumbnail-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 695px; /* Angepasste Höhe für Demo-Zwecke */
-}
-.thumbnail img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-}
-.arrow {
-  text-align: center;
-  cursor: pointer;
-}
-.arrow svg {
-  fill: #000;
-}
-.main-image {
-  height: 695px; /* Höhe des Hauptbildes */
-  object-fit: cover;
-  width: 100%;
-}
-
-.product-card {
-  max-width: 400px;
-}
-.btn-cart {
-  background-color: #dc3545;
-  color: white;
-}
-.btn-cart:hover {
-  background-color: #c82333;
-  color: white;
-}
-.btn-outline-secondary {
-  border-color: #6c757d;
-  color: #6c757d;
-}
-.btn-outline-secondary:hover {
-  border-color: #5a6268;
-  color: #5a6268;
-}
-.product-colors .col-4 {
-  padding: 0 5px;
-}
-.product-colors img {
-  width: 100%;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-.icons .col {
-  text-align: center;
-  padding: 0 10px;
-}
-
-.product-container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.product-cards {
-  border: 1px solid #ddd;
-  border-radius: 4px;
-  width: 18%;
-  text-align: center;
-  padding: 8px;
-  position: relative;
-}
-
-.product-cards img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 8px;
-}
-
-.discount-tag {
-  position: absolute;
-  background-color: red;
-  color: white;
-  font-size: 12px;
-  padding: 2px 5px;
-  top: 8px;
-  left: 8px;
-}
-
-.product-price {
-  color: #333;
-  font-weight: bold;
 }

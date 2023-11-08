@@ -1,0 +1,30 @@
+/*Cart*/
+.cart-background {
+    background-color: white;
+    border: 20px solid #EDEDED;
+    margin-left: 75px;
+    margin-top: -17px;
+    width: 90%;
+    height: 350px;
+}
+
+.btnLogin{
+    color: orangered;
+    border: 2px solid orangered;
+    font-size: 14px;
+    background-color: white;
+    padding: 5px 0px;
+    width: 55%;
+    margin-left: 225px;
+}
+
+.btnMain{
+    color: white;
+    border: 2px solid orangered;
+    font-size: 14px;
+    background-color: orangered;
+    padding: 5px 0px;
+    width: 55%;
+    margin-left: 5px;
+}
+

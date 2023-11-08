@@ -1,0 +1,524 @@
+/* CIN */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.gallery-container {
+  padding: 20px;
+}
+
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 120px; 
+  width: 80px;
+}
+
+.thumbnail-container img {
+  margin-bottom: 0px; /* Abstand zwischen den Thumbnails */
+}
+
+
+.arrow {
+  text-align: center;
+  cursor: pointer;
+}
+.arrow svg {
+  fill: #000;
+}
+.main-image {
+  height: 1200px; /* Höhe des Hauptbildes */
+  object-fit: cover;
+  width: 130%;
+}
+
+.navbar {
+  background-color: #fff; /* Weißer Hintergrund */
+  padding-bottom: 10px; /* Zusätzlicher Abstand nach unten */
+}
+
+.navbar-brand {
+  font-size: 1.5rem; /* Anpassung der Größe des Logos */
+  color: #cc0000; /* Farbe des OTTO-Logos */
+  font-weight: bold; /* Fett gedruckt */
+  font-family: "Audiowide", sans-serif;
+}
+
+/* Stil der Suchleiste anpassen */
+.search-box {
+  flex-grow: 1; /* Suchfeld soll flexibel sein */
+  margin: 10px; /* Etwas Abstand */
+  padding: 5px 10px; /* Innenabstand für die Textbox */
+  font-size: 1rem; /* Schriftgröße der Platzhalter */
+}
+
+/* Stil der Listenelemente ohne Icons */
+.nav-item {
+  padding: 0 15px; /* Abstand zwischen den Listenelementen */
+  color: #333; /* Dunkelgraue Schriftfarbe */
+  text-decoration: none; /* Keine Unterstreichung */
+  font-size: 1rem; /* Schriftgröße anpassen */
+  white-space: nowrap; /* Verhindert Umbruch des Texts */
+}
+
+/* Stil für die Hauptnavigation */
+.main-nav {
+  display: flex;
+  justify-content: center; /* Zentriert die Links */
+  flex-wrap: wrap; /* Erlaubt Umbruch auf eine neue Zeile */
+}
+
+/* Abstände und Stil für die Navigationslinks */
+.nav-link {
+  color: #666; /* Dunkelgraue Schriftfarbe */
+  margin: 5px 15px; /* Abstände */
+  font-size: 0.9rem; /* Etwas kleinere Schriftgröße */
+}
+
+/* Flex Container für Logo, Suchleiste und Navigationslinks */
+.top-nav {
+  display: flex; /* Erstellt ein Flex-Container */
+  align-items: center; /* Zentriert die Inhalte vertikal */
+  justify-content: start; /* Beginnt Inhalte am Anfang */
+}
+
+.gallery-container {
+  padding: 20px;
+}
+.thumbnail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 695px; /* Angepasste Höhe für Demo-Zwecke */
+}
+.thumbnail img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.arrow {
+  text-align: center;
+  cursor: pointer;
+}
+.arrow svg {
+  fill: #000;
+}
+.main-image {
+  height: 695px; /* Höhe des Hauptbildes */
+  object-fit: cover;
+  width: 100%;
+}
+
+.product-card {
+  max-width: 400px;
+}
+.btn-cart {
+  background-color: #dc3545;
+  color: white;
+}
+.btn-cart:hover {
+  background-color: #c82333;
+  color: white;
+}
+.btn-outline-secondary {
+  border-color: #6c757d;
+  color: #6c757d;
+}
+.btn-outline-secondary:hover {
+  border-color: #5a6268;
+  color: #5a6268;
+}
+.product-colors .col-4 {
+  padding: 0 5px;
+}
+.product-colors img {
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.icons .col {
+  text-align: center;
+  padding: 0 10px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-cards {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 18%;
+  text-align: center;
+  padding: 8px;
+  position: relative;
+}
+
+.product-cards img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+.discount-tag {
+  position: absolute;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  top: 8px;
+  left: 8px;
+}
+
+.product-price {
+  color: #333;
+  font-weight: bold;
+}
+  
+.card-titel, .card-text1 {
+    font-size: 30px;
+    font-family: "Tiempos", "Times New Roman", serif;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.card-titel {
+    margin-bottom: 5px;
+}
+.card-text1 {
+    margin-bottom: 10px;
+}
+
+.card-text2 {
+    font-size: 22px;
+    font-family: "HelveticaNow", "Helvetica", sans-serif;
+    color: red;
+    margin-top: 10px;
+    margin: 0;
+}
+  
+.card-text22 {
+    font-size: 14px;
+    font-family: "HelveticaNow", "Helvetica", sans-serif;
+    color: gray;
+    margin: 0;
+}
+  
+.card-text3, .card-text33, .card-text4 {
+    font-size: 14px;
+    font-family: "HelveticaNow", "Helvetica", sans-serif;
+    margin: 0;
+}
+  
+.card-text3 {
+    color: gray;
+}
+  
+.card-text33 {
+    color: gray;
+    text-decoration: line-through;
+}
+  
+.card-text4 {
+    color: red;
+}
+
+.plus {
+  color: rgb(99, 40, 224); /* Lila Farbe */
+  font-weight: bold; /* Fette Schrift */
+  text-decoration: none; /* Kein Unterstrich (Standard) */
+}
+
+.plus:hover {
+  text-decoration: underline; /* Unterstreichen beim Hovern */
+}
+  
+.color-choice, .farbe {
+    font-size: 14px;
+    font-family: "HelveticaNow", "Helvetica", sans-serif;
+    margin-top: 35px;
+    margin-bottom: 5px;
+    height: 120px; 
+    width: 80px; 
+}
+
+.farbe {
+  font-weight: bold; 
+}
+
+
+/* fuer button warenkorb und herz */
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+
+  /* CSS-Code */
+
+  .black-button {
+    background-color: black;
+    font-family: Helvetica;
+    align-content: center;
+    font-size: 16px;
+    color: white;
+    padding: 9px 109px;
+    border: none;
+    cursor: pointer;
+    /* max-width: 300px;  breite */
+  }
+
+  .black-button:hover {
+    background-color: gray; /* Ändert die Hintergrundfarbe beim Hovern zu Grau */
+  }
+  
+  .image-button {
+    background: none;
+    cursor: pointer;
+    border: 1px solid black; /* Umrahmung mit 1px schwarzer Farbe */
+    display: inline-block; /* Um den Container inline anzuzeigen */
+    padding: 5px; /* Optional: Füge Abstand um den Button hinzu */
+    margin-left: 5px;    
+  }
+
+  .image-button:hover {
+    background-color: gray; /* Ändert die Hintergrundfarbe beim Hovern zu Grau */
+  }
+
+
+  /* Für die produktbeschreibung */
+  
+.text-container {
+    border: 2px solid gray;
+    padding: 10px;
+    max-width: 500px; /* breite */
+    margin-bottom: 50px;
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+
+  }
+
+  .iconInfo{
+    text-align: right;  }
+
+  .time {
+    font-weight: bold;
+  }
+  
+  .partner-text {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+    margin-left: 5px; 
+  }
+  
+  .line {
+    border: none;
+    border-top: 1px solid gray;
+    margin: 10px 0;
+  }
+  
+  .icon {
+    font-size: 20px;
+  }
+  
+  .delivery-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+ .price-free {
+    font-weight: bold;
+    margin-left: 90px;  
+  }
+  .price {
+    font-weight: bold;
+    margin-left: 120px;  
+  }
+  
+  .standard-delivery {
+    color: black;
+    margin-top: -6px;
+    margin-bottom: 0;
+  }
+  
+  .text-bold {
+    font-weight: bold;
+  }
+  
+  .text-bold-sell {
+    font-weight: bold;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  .icon-right {
+    font-size: 16px;
+  } 
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: solid 1px black;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  border: solid 2px black;
+}
+
+
+.dropdown{
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  border: 2px solid black;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid lightgray;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu (JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+/*/Dropdown*/
+  /* Auflistung */
+
+
+  /* Kai */
+
+/* MOTD */
+
+/* Navbar */
+.nav-row {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+/* Buttons */
+.nav-buttons-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-buttons-list>li {
+  display: inline;
+}
+
+.nav-inv-btn {
+  background: transparent;
+  border: none;
+}
+
+/* Alignement */
+.nav-right-aligned {
+  margin-left: auto;
+  margin-right: 225px;
+  display: flex;
+}
+
+.nav-left-aligned {
+  margin-left: 225px;
+}
+
+#nav-searchform {
+  height: 50px;
+  width: 300px;
+}
+
+/* Sites */
+#cartSite {
+  display: none;
+}
+
+#loginSite {
+  display: none;
+}
+
+/* /Kai */
+
+#motd-banner {
+  height: 1%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(210, 69, 30);
+}
+
+#language-modal-content {
+  width: 390px !important;
+}
+
+
+.max-width {
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  min-width: max-content;
+  max-width: 1000px;
+  display: flex;
+}
+
+.btn {
+  font-family: Arial, 'Helvetica', sans-serif;
+  font-weight: bold;
+}
+
+#motd-banner>div>* {
+  color: white;
+}
+
+#motd {
+  font-family: Arial, 'Helvetica', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#motd-close-btn {
+  padding-bottom: 0px;
+}
+
+#motd-banner button {
+  background-color: transparent;
+  border: none;
+}
