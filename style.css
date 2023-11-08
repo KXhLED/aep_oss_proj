@@ -1,0 +1,264 @@
+
+
+.Hauptinhalt {
+  max-width: 1400px; /* Maximale Breite des Containers */
+  margin: 0 auto;   /* Zentriert den Container auf der Seite */
+  padding: 20px;    /* Fügen Sie Abstand um den Container hinzu */
+}
+
+.left-sidebar, .right-sidebar {
+  width: 5cm;     /* Breite der Seitenleisten */
+  background-color: #fff;  /* Hintergrundfarbe weiß */
+  padding: 10px;  /* Optional: Fügen Sie Abstand um den Inhalt hinzu */
+  box-sizing: border-box; /* Das padding ist Teil der angegebenen Breite */
+}
+
+.card-titel {
+  font: 20px 'Tiempos', 'Times New Roman', serif;
+}
+
+.card-text {
+  font: 20px 'HelveticaNow', 'Helvetica', sans-serif;
+}
+
+.card-titel,
+.card-text1 {
+  margin: 0; 
+}
+
+.card-text2 {
+  font: 18px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin-top: 5px; 
+  color: red; 
+}
+
+.card-text3 {
+  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin: 0;
+  text-decoration: line-through; 
+}
+
+.card-text4 {
+  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin: 0;
+  color: red; 
+}
+
+
+#motd-banner {
+    height: 1%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(210, 69, 30);
+}
+
+.max-width {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+    min-width: max-content;
+    max-width: 1000px;
+    display: flex;
+}
+
+.btn {
+  font-family: Arial, 'Helvetica', sans-serif;
+  font-weight: bold;
+}
+
+#motd-banner > div > * {
+    color: white; 
+}
+
+#motd {
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#motd-close-btn{
+    padding-bottom: 2px;
+}
+
+#motd-banner button{
+    background-color: transparent;
+    border: none;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: white;
+  color: black;
+  padding: 15px;
+  margin-top: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  border: solid 1px black;
+  cursor: pointer;
+  z-index: 2;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover,
+.dropbtn:focus {
+  border: solid 2px black;
+}
+
+/* container <div> - position of Dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f6f6f6;
+  border: 2px solid black;
+  min-width: 230px;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom: 1px solid lightgray;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu (JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {
+  display: block;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: white;
+    margin-bottom: 0; /* Verhindert den unteren Abstand der ul.breadcrumb */
+    text-align: start;
+    font-weight: 700;
+  }
+  
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 15px;
+  }
+  ul.breadcrumb li + li:before {
+    padding: 8px;
+    color: black;
+    content: ">\00a0";
+  }
+  ul.breadcrumb li a {
+    color: black;
+    text-decoration: none;
+  }
+  ul.breadcrumb li:nth-child(1) a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  
+  /* Aktives Element */
+  ul.breadcrumb li.active a {
+    color: grey; 
+  }
+  
+  /* Schuhe in Grau */
+  ul.breadcrumb li:nth-child(2) a {
+    color: grey;
+  }
+  
+  h3 {
+    margin-top: 0; 
+    font-weight: 600;
+    font-size: 40px;
+  }
+  
+  /* Stil für die Überschrift */
+  .navbar h4 {
+    color: #6328e0;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  
+  /* Styling für die Navigationsleiste */
+  .navbar ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 0;
+    margin-left: 15px;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  
+  /* Stil für Navigationspunkte */
+  .navbar ul li {
+    margin: 7px 0; /* Abstand zwischen den Punkten anpassen */
+  }
+  
+  /* Stil für Links */
+  .navbar ul li a {
+    text-decoration: none;
+    color: black; /* Textfarbe für untergeordnete Punkte ändern */
+  }
+  
+  /* Stil für Links beim Schweben (Hover) */
+  .navbar ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
