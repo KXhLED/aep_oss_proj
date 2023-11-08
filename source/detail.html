@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./style/detail.css">
     <script type="text/javascript" src="./script/script.js"></script>
+    <script type="text/javascript" src="./script/scriptDetail.js"></script>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -23,273 +25,400 @@
 </head>
 
 <body>
-      <!-- Menüleiste Kai -->
-  <navbar-component/>
-    <!-- Menüleiste Kai -->
+  <!-- Menüleiste Kai -->
+  <navbar-component />
+  <!-- Menüleiste Kai -->
 
 
-    <!-- Produktinformationen -->
-    <div class="row">
-      <div class="col-sm-1"> </div>
-      <div class="col-sm-7">
-        <div class="container gallery-container">
-          <div class="row">
-            <div class="col-md-3">
-              <div class="thumbnail-container">
-                <!-- Pfeil nach oben 
-                <div class="arrow mb-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path d="M12 4l-6 6h12z" />
-                  </svg>
-                </div> 
-              -->
-                <!-- Thumbnail Image -->
-                <div class="thumbnail mb-2">
-                  <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Puma - MAYZE  - Sneaker low - white/dark coal Thumbnail-Bild 1" src="https://img01.ztat.net/article/spp-media-p1/2d591309b2d047ccb5dafb861fd55712/12bb1a9e10f24266b646490a928581ec.jpg?imwidth=156"  alt="Thumbnail 1">
-                </div>
-                <!-- Thumbnail Image -->
-                <div class="thumbnail mb-2">
-                 <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Thumbnail-Bild 2" src="https://img01.ztat.net/article/spp-media-p1/5aedaf61abef40d8999221c5b29b07be/ace7d719031d443cbfc1a34ecbb63b11.jpg?imwidth=156&amp;filter=packshot" alt="Thumbnail 2">
-                </div>
-                <!-- Thumbnail Image -->
-                <div class="thumbnail mb-2">
-                  <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Thumbnail-Bild 4" src="https://img01.ztat.net/article/spp-media-p1/7a1b4bacf6144271993a63ab53403660/d94cce6f403843e9b61f8b00fed266ad.jpg?imwidth=156" alt="Thumbnail 3">
-                </div>
-                <!-- Pfeil nach unten
-                <div class="arrow">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-                    <path d="M12 20l6-6H6z" />
-                  </svg>
-                </div>
-              -->
+  <!-- Produktinformationen -->
+  <div class="row">
+    <div class="col-sm-1"> </div>
+    <div class="col-sm-6">
+      <div class="container gallery-container">
+        <div class="row">
+          <div class="col-md-2"> </div>
+
+          <div class="col-md-2">
+            <div class="thumbnail-container">
+              <!-- Thumbnail Image -->
+              <div class="thumbnail mb-2">
+                <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Thumbnail-Bild 2" src="https://mosaic03.ztat.net/prd/media/comet/PU/11/1A/0X/FA/11/VIDEO/PREVIEW_IMG/1667315641991.jpg">              </div>
+              <div class="thumbnail mb-2">
+                <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Thumbnail-Bild 3" src="https://img01.ztat.net/article/spp-media-p1/a373a7c4de764bb1ae92eeba1d38f10b/cbd533288cd544b2bc58402d221f58dd.jpg?imwidth=156&amp;filter=packshot">
+              </div>
+              <div class="thumbnail mb-2">
+                <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Puma - MAYZE STACK - Sneaker low - white, Vergrößern" fetchpriority="auto" src="https://img01.ztat.net/article/spp-media-p1/b96d22e486e748dfbf8e083c08646c91/06221bc56e414bba87e5f5976fd50d91.jpg?imwidth=1800" style="cursor: zoom-in;">              
+              </div>
+              <div class="thumbnail mb-2">
+                <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Puma - MAYZE STACK - Sneaker low - white, Vergrößern" fetchpriority="auto" src="https://img01.ztat.net/article/spp-media-p1/b96d22e486e748dfbf8e083c08646c91/06221bc56e414bba87e5f5976fd50d91.jpg?imwidth=1800" style="cursor: zoom-in;">              
+              </div>
+              <div class="thumbnail mb-2">
+                <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Puma - MAYZE STACK - Sneaker low - white, Vergrößern" fetchpriority="auto" src="https://img01.ztat.net/article/spp-media-p1/b96d22e486e748dfbf8e083c08646c91/06221bc56e414bba87e5f5976fd50d91.jpg?imwidth=1800" style="cursor: zoom-in;">              
               </div>
             </div>
-            <div class="col-md-7">
-              <!-- Hauptbild -->
-              <img src="https://via.placeholder.com/600x695" alt="Hauptbild" class="main-image">
+          </div>
+          <div class="col-md-5">
+            <!-- Hauptbild -->
+            <div class="main-image-container">
+              <img id="mainImage" src="https://via.placeholder.com/600x695" alt="Hauptbild" class="main-image">
             </div>
           </div>
         </div>
       </div>
-      <div class="col-md-4">
-        <!-- Produktbeschreibung -->
-        <div class="container sm-4">
-          <div class="product-card">
-            <div class="card-body">
-              <h3 class="card-titel">Puma SMASH</h3>
-              <h3 class="card-text1">Sneaker low - white</h3>
-              <p <span class="card-text2">ab 77,95 €</span> <span class="card-text22">inkl. MwSt.</span> </p>
-              <p <span class="card-text3">Ursprünglich:</span> <span class="card-text33"> 119,95 €</span> <span
-                  class="card-text4"> -35% </span> </p>
-            </div>
+    </div>
+    <div class="col-md-3">
+      <!-- Produktbeschreibung -->
+      <div class="container sm-4">
+        <div class="product-card">
+          <div class="card-body">
+            <h3 class="card-titel">Puma SMASH</h3>
+            <h3 class="card-text1">Sneaker low - white</h3>
+            <p <span class="card-text2">ab 77,95 €</span> <span class="card-text22">inkl. MwSt.</span> </p>
+            <p <span class="card-text3">Ursprünglich:</span> <span class="card-text33"> 119,95 €</span> <span
+                class="card-text4"> -35% </span> </p>
           </div>
-          <div class="color-choice">
-            <p><span class="color-choice">Farbe: </span><span class="farbe">white</span></p>
+        </div>
+          <p> <span class="color-choice">Farbe: </span> <span class="farbe">white</span></p>
+        <div class="row product-colors mb-3">
+          <div class="col-3">
+            <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy"
+              alt="Ausgewählt, white/dark coal"
+              src="https://img01.ztat.net/article/spp-media-p1/5aedaf61abef40d8999221c5b29b07be/ace7d719031d443cbfc1a34ecbb63b11.jpg?imwidth=156&amp;filter=packshot"
+              height="120px" width="80px">
           </div>
-            <div class="row product-colors mb-3">
-              <div class="col-4">
-                <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Ausgewählt, white/dark coal" src="https://img01.ztat.net/article/spp-media-p1/5aedaf61abef40d8999221c5b29b07be/ace7d719031d443cbfc1a34ecbb63b11.jpg?imwidth=156&amp;filter=packshot"     height="80px" width="120px">              
+          <div class="col-3">
+            <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy"
+              alt="Ausgewählt, white/dark coal"
+              src="https://img01.ztat.net/article/spp-media-p1/5aedaf61abef40d8999221c5b29b07be/ace7d719031d443cbfc1a34ecbb63b11.jpg?imwidth=156&amp;filter=packshot"
+              height="120px" width="80px">
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <button onclick="dropdownFunction()" class="dropbtn">
+            Bitte Größe wählen <img id="myImage" src=./images/pfeil-nach-unten.png>
+          </button>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="index.html">40</a>
+            <a href="index.html">39</a>
+            <a href="index.html">38</a>
+            <a href="index.html">37</a>
+            <a href="index.html">36</a>
+          </div>
+        </div>
+
+        <div class="button-container">
+          <button class="black-button">In den Warenkorb</button>
+          <button class="image-button">
+            <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-labelledby="wishlist-:R4k:"
+              class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ I_qHp3" focusable="false" aria-hidden="false" role="img">
+              <title id="wishlist-:R4k:">Wishlist</title>
+              <path
+                d="M17.488 1.11h-.146a6.552 6.552 0 0 0-5.35 2.81A6.57 6.57 0 0 0 6.62 1.116 6.406 6.406 0 0 0 .09 7.428c0 7.672 11.028 15.028 11.497 15.338a.745.745 0 0 0 .826 0c.47-.31 11.496-7.666 11.496-15.351a6.432 6.432 0 0 0-6.42-6.306zM12 21.228C10.018 19.83 1.59 13.525 1.59 7.442c.05-2.68 2.246-4.826 4.934-4.826h.088c2.058-.005 3.93 1.251 4.684 3.155.226.572 1.168.572 1.394 0 .755-1.907 2.677-3.17 4.69-3.16h.02c2.7-.069 4.96 2.118 5.01 4.817 0 6.089-8.429 12.401-10.41 13.8z">
+              </path>
+            </svg>
+          </button>
+        </div>
+
+        <!-- Produktinformationen -->
+
+        <div class="text-container">
+          <p class="partner-text">Verkauft und versandt durch einen Zalando Partner</p>
+          <hr class="line">
+          <div class="row">
+            <div class="icon">
+              <div class="col-md-12">
+                <span class="icon"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"
+                    aria-labelledby="premium-lieferung-:R1a:"
+                    class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ HlZ_Tf I_qHp3" focusable="false" aria-hidden="true"
+                    role="img">
+                    <title id="premium-lieferung-:R1a:">Premium-Lieferung</title>
+                    <path
+                      d="M2.231 8.25h2.282a.75.75 0 0 0 0-1.5H2.231a.75.75 0 0 0 0 1.5zm2.266 3a.75.75 0 0 0 0-1.5H.753a.75.75 0 0 0 0 1.5h3.744zm.016 3.001a.75.75 0 0 0 0-1.5H2.21a.75.75 0 0 0 0 1.5h2.303z">
+                    </path>
+                    <path
+                      d="m23.81 11.501-3.368-3.738a.754.754 0 0 0-.557-.248h-3.378V4.497a.75.75 0 0 0-.75-.75H3.711a.75.75 0 0 0 0 1.5l11.298-.004.003 10.513-4.953.004c-.519-.897-1.478-1.508-2.588-1.508s-2.07.61-2.588 1.508H3.712a.75.75 0 1 0 0 1.5h.76a2.999 2.999 0 0 0 5.998 0h5.276l.76.003a2.999 2.999 0 0 0 5.997 0h.749a.75.75 0 0 0 .75-.75v-4.51a.751.751 0 0 0-.193-.502zm-16.338 7.25a1.5 1.5 0 1 1 0-2.999 1.5 1.5 0 0 1 0 2.999zm12.032 0a1.5 1.5 0 1 1 0-2.999 1.5 1.5 0 0 1 0 2.999zm2.998-2.988h-.408a2.987 2.987 0 0 0-2.59-1.511 2.987 2.987 0 0 0-2.59 1.511h-.402l-.003-6.748h3.042l2.95 3.278v3.47z">
+                    </path>
+                  </svg></span>
               </div>
-            <div class="col-4">
-              <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Ausgewählt, white/dark coal" src="https://img01.ztat.net/article/spp-media-p1/5aedaf61abef40d8999221c5b29b07be/ace7d719031d443cbfc1a34ecbb63b11.jpg?imwidth=156&amp;filter=packshot"     height= "80px" width="50px">            
             </div>
           </div>
-
-          <div class="dropdown">
-            <button onclick="dropdownFunction()" class="dropbtn">
-              Bitte Größe wählen <img id="myImage" src=./images/pfeil-nach-unten.png>
-            </button>
-            <div id="myDropdown" class="dropdown-content">
-              <a href="index.html">40</a>
-              <a href="index.html">39</a>
-              <a href="index.html">38</a>
-              <a href="index.html">37</a>
-              <a href="index.html">36</a>
+          <div class="row">
+            <div class="delivery-info">
+              <div class="col-md-6">
+                <span class="time">1-2 Werktage</span>
+              </div>
+              <div class="col-md-6">
+                <span class="price">5,90€</span>
+              </div>
             </div>
           </div>
-
-          <div class="button-container">
-            <button class="black-button">In den Warenkorb</button>
-            <button class="image-button">
-              <svg viewBox="0 0 24 24" width="30" height="30" fill="currentColor" aria-labelledby="wishlist-:R4k:"
-                class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ I_qHp3" focusable="false" aria-hidden="false" role="img">
-                <title id="wishlist-:R4k:">Wishlist</title>
-                <path
-                  d="M17.488 1.11h-.146a6.552 6.552 0 0 0-5.35 2.81A6.57 6.57 0 0 0 6.62 1.116 6.406 6.406 0 0 0 .09 7.428c0 7.672 11.028 15.028 11.497 15.338a.745.745 0 0 0 .826 0c.47-.31 11.496-7.666 11.496-15.351a6.432 6.432 0 0 0-6.42-6.306zM12 21.228C10.018 19.83 1.59 13.525 1.59 7.442c.05-2.68 2.246-4.826 4.934-4.826h.088c2.058-.005 3.93 1.251 4.684 3.155.226.572 1.168.572 1.394 0 .755-1.907 2.677-3.17 4.69-3.16h.02c2.7-.069 4.96 2.118 5.01 4.817 0 6.089-8.429 12.401-10.41 13.8z">
-                </path>
-              </svg>
-            </button>
+          <div class="delivery-info2">
+            <div class="col-md-12">
+              <div>
+                <p class="standard-delivery">Premium-Lieferung</p>
+                <p class="plus">Bei Plus anmelden</p>
+              </div>
+            </div>
           </div>
-
-          <!-- Produktinformationen -->
-
-          <div class="text-container">
-            <p class="partner-text">Verkauft und versandt durch einen Zalando Partner</p>
-            <hr class="line">
-            <div class="row">
-              <div class="icon">
-                <div class="col-md-12">
+          <hr class="line">
+          <div class="row">
+            <div class="icon">
+              <div class="col-md-12">
+                <div class="delivery-info">
                   <span class="icon"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"
-                      aria-labelledby="premium-lieferung-:R1a:"
+                      aria-labelledby="standard-lieferung-:R1i:"
                       class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ HlZ_Tf I_qHp3" focusable="false" aria-hidden="true"
                       role="img">
-                      <title id="premium-lieferung-:R1a:">Premium-Lieferung</title>
+                      <title id="standard-lieferung-:R1i:">Standard-Lieferung</title>
                       <path
-                        d="M2.231 8.25h2.282a.75.75 0 0 0 0-1.5H2.231a.75.75 0 0 0 0 1.5zm2.266 3a.75.75 0 0 0 0-1.5H.753a.75.75 0 0 0 0 1.5h3.744zm.016 3.001a.75.75 0 0 0 0-1.5H2.21a.75.75 0 0 0 0 1.5h2.303z">
-                      </path>
-                      <path
-                        d="m23.81 11.501-3.368-3.738a.754.754 0 0 0-.557-.248h-3.378V4.497a.75.75 0 0 0-.75-.75H3.711a.75.75 0 0 0 0 1.5l11.298-.004.003 10.513-4.953.004c-.519-.897-1.478-1.508-2.588-1.508s-2.07.61-2.588 1.508H3.712a.75.75 0 1 0 0 1.5h.76a2.999 2.999 0 0 0 5.998 0h5.276l.76.003a2.999 2.999 0 0 0 5.997 0h.749a.75.75 0 0 0 .75-.75v-4.51a.751.751 0 0 0-.193-.502zm-16.338 7.25a1.5 1.5 0 1 1 0-2.999 1.5 1.5 0 0 1 0 2.999zm12.032 0a1.5 1.5 0 1 1 0-2.999 1.5 1.5 0 0 1 0 2.999zm2.998-2.988h-.408a2.987 2.987 0 0 0-2.59-1.511 2.987 2.987 0 0 0-2.59 1.511h-.402l-.003-6.748h3.042l2.95 3.278v3.47z">
+                        d="m23.807 11.497-3.365-3.735a.754.754 0 0 0-.557-.247H16.51V4.5a.75.75 0 0 0-.75-.75H3.007a.75.75 0 0 0-.75.75v12.008c0 .414.336.75.75.75h1.467a2.999 2.999 0 0 0 5.997 0h6.035a2.999 2.999 0 0 0 5.997 0h.746a.75.75 0 0 0 .75-.75V12a.751.751 0 0 0-.193-.503zm-4.256-2.482 2.949 3.274v3.468h-.408c-.519-.896-1.477-1.506-2.587-1.506s-2.068.61-2.587 1.506h-.404v-.96l-.002-5.782h3.039zM3.758 5.25H15.01l.001 3.01v.005l.003 7.492H10.06c-.518-.896-1.476-1.506-2.586-1.506s-2.068.61-2.587 1.506H3.758V5.25zm3.716 13.5a1.5 1.5 0 1 1 0-2.998 1.5 1.5 0 0 1 0 2.998zm12.031 0a1.5 1.5 0 1 1 0-2.998 1.5 1.5 0 0 1 0 2.998z">
                       </path>
                     </svg></span>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="delivery-info">
-                <div class="col-md-6">
-                  <span class="time">1-2 Werktage</span>
-                </div>
-                <div class="col-md-6">
-                  <span class="price">5,90€</span>
-                </div>
-              </div>
-            </div>
-            <div class="delivery-info2">
-              <div class="col-md-12">
-                <div>
-                  <p class="standard-delivery">Premium-Lieferung</p>
-                  <p class="plus">Bei Plus anmelden</p>
-                </div>
-              </div>
-            </div>
-            <hr class="line">
-            <div class="row">
-              <div class="icon">
-                <div class="col-md-12">
-                  <div class="delivery-info">
-                    <span class="icon"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"
-                        aria-labelledby="standard-lieferung-:R1i:"
-                        class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ HlZ_Tf I_qHp3" focusable="false" aria-hidden="true"
-                        role="img">
-                        <title id="standard-lieferung-:R1i:">Standard-Lieferung</title>
-                        <path
-                          d="m23.807 11.497-3.365-3.735a.754.754 0 0 0-.557-.247H16.51V4.5a.75.75 0 0 0-.75-.75H3.007a.75.75 0 0 0-.75.75v12.008c0 .414.336.75.75.75h1.467a2.999 2.999 0 0 0 5.997 0h6.035a2.999 2.999 0 0 0 5.997 0h.746a.75.75 0 0 0 .75-.75V12a.751.751 0 0 0-.193-.503zm-4.256-2.482 2.949 3.274v3.468h-.408c-.519-.896-1.477-1.506-2.587-1.506s-2.068.61-2.587 1.506h-.404v-.96l-.002-5.782h3.039zM3.758 5.25H15.01l.001 3.01v.005l.003 7.492H10.06c-.518-.896-1.476-1.506-2.586-1.506s-2.068.61-2.587 1.506H3.758V5.25zm3.716 13.5a1.5 1.5 0 1 1 0-2.998 1.5 1.5 0 0 1 0 2.998zm12.031 0a1.5 1.5 0 1 1 0-2.998 1.5 1.5 0 0 1 0 2.998z">
-                        </path>
-                      </svg></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="delivery-info">
-                <div class="col-md-6">
-                  <span class="time">2-4 Werktage</span>
-                </div>
-                <div class="col-md-6">
-                  <span class="price-free">Kostenlos</span>
-                </div>
-              </div>
-            </div>
-            <div class="delivery-info2">
-              <div class="col-md-12">
-                <div>
-                  <p class="standard-delivery">Standard-Lieferung</p>
-                </div>
-              </div>
-            </div>
-            <hr class="line">
-            <div class="info">
-              <span class="icon"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"
-                  class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ SpRgR2 HlZ_Tf I_qHp3" focusable="false"
-                  aria-hidden="true">
-                  <path
-                    d="m16.5 14.5-4.2-1.9c-.2-.1-.4-.1-.6 0l-4.2 1.9V6.9l2-5.6h5l2 5.9v7.3zM9 7.3v4.9l2.1-.9c.6-.3 1.2-.3 1.8 0l2.1.9V7.3l-1.6-4.5h-2.9L9 7.3z">
-                  </path>
-                  <path
-                    d="M20.5 22.8h-17c-1.2 0-2.2-1-2.2-2.2V19c0-.4.3-.8.8-.8s.8.3.8.8v1.5c0 .4.3.8.8.8h17c.4 0 .8-.3.8-.8V7.3c0-.1 0-.2-.1-.3l-1.5-3.8c-.1-.3-.4-.5-.7-.5H5c-.3 0-.6.2-.7.5L2.8 7c0 .1-.1.2-.1.3V10c0 .4-.3.8-.8.8s-.7-.4-.7-.8V7.3c0-.3.1-.6.2-.8l1.5-3.8c.4-.9 1.2-1.5 2.1-1.5h14c.9 0 1.7.6 2.1 1.4l1.5 3.8c.1.3.2.5.2.8v13.2c0 1.3-1.1 2.4-2.3 2.4z">
-                  </path>
-                  <path
-                    d="M2 7h20v1.5H2zm2.8 6.8h-4c-.5 0-.8-.4-.8-.8s.3-.8.8-.8h4c.4 0 .8.3.8.8s-.4.8-.8.8zm0 3h-4c-.5 0-.8-.4-.8-.8s.3-.8.8-.8h4c.4 0 .8.3.8.8-.1.4-.4.8-.8.8z">
-                  </path>
-                </svg></span>
-              <span class="text-bold">Kostenloser Versand & Rückversand</span>
-            </div>
-            <hr class="line">
-              <div class="info">
-                  <span class="icon"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ SpRgR2 HlZ_Tf I_qHp3" focusable="false" aria-hidden="true">
-                    <path d="M14.25 4.33H1.939l3.056-3.055A.75.75 0 0 0 3.934.215L.658 3.49a2.252 2.252 0 0 0 0 3.182l3.276 3.275a.75.75 0 0 0 1.06-1.06L1.94 5.83h12.31c4.557 0 8.251 3.694 8.251 8.25s-3.695 8.42-8.251 8.42h-12a.75.75 0 0 0 0 1.5h12c5.385 0 9.75-4.534 9.75-9.919s-4.365-9.75-9.75-9.75z"></path></svg></span>
-                  <span class="text-bold">100 Tage Rückgaberecht</span>
-                </div>
-        </div>
-
-          <!-- Auflistung -->
-          <ul class="dropdown-list">
-            <li class="dropdown-item">
-              Material & Pflegehinweise
-            </li>
-            <li class="dropdown-item">
-              Mehr zu diesem Produkt
-            </li>
-            <li class="dropdown-item">
-              Passform
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-              <!-- Bewertungen -->
-
-
-    <!-- Ähnliche Produkte -->
-    <div class="row">
-      <div class="col-md-12">
-        <!-- <h4>Ähnliche Produkte</h4> -->
-        <div class="container my-3">
-          <div class="ueberschrift1"> 
-          <h4 class="mb-2">Ähnliche Produkte</h4>
           </div>
-          <div class="ueberschrift2">
-          <h3 class="mb-1">Empfehlungen für dich</h3>
-        </div>
-          <div class="product-container">
-            <!-- Produktkarte Beginn -->
-            <div class="product-cards">
-              <div class="discount-tag">-20% Extra</div>
-              <img src="https://img01.ztat.net/article/spp-media-p1/e9e4a005977d4e1ab633f2a394ad41cf/5a7558c3125a45a0946003cb2431c0f7.jpg?imwidth=156&amp;filter=packshot" alt="Produktbild">
-              <h5 class="product-name">Geldbörse Palermo</h5>
-              <p class="product-price">€ 21,95</p>
+          <div class="row">
+            <div class="delivery-info">
+              <div class="col-md-6">
+                <span class="time">2-4 Werktage</span>
+              </div>
+              <div class="col-md-6">
+                <span class="price-free">Kostenlos</span>
+              </div>
             </div>
-            <div class="product-cards">
-              <div class="discount-tag">-20% Extra</div>
-
-              <img draggable="false" class="sDq_FX lystZ1 FxZV-M _2Pvyxl JT3_zV EKabf7 mo6ZnF _1RurXL mo6ZnF _7ZONEy" alt="Puma - MAYZE  - Sneaker low - white/dark coal Thumbnail-Bild 1" src="https://img01.ztat.net/article/spp-media-p1/2d591309b2d047ccb5dafb861fd55712/12bb1a9e10f24266b646490a928581ec.jpg?imwidth=156" height="150px" width="150px">
-              <!--  <img src="https://via.placeholder.com/150" alt="Produktbild"> -->
-              <h5 class="product-name">Geldbörse Palermo</h5>
-              <p class="product-price">€ 21,95</p>
+          </div>
+          <div class="delivery-info2">
+            <div class="col-md-12">
+              <div>
+                <p class="standard-delivery">Standard-Lieferung</p>
+              </div>
             </div>
-            <div class="product-cards">
-              <div class="discount-tag">-20% Extra</div>
-              <img src="https://via.placeholder.com/150" alt="Produktbild">
-              <h5 class="product-name">Geldbörse Palermo</h5>
-              <p class="product-price">€ 21,95</p>
-            </div>
-            <div class="product-cards">
-              <div class="discount-tag">-20% Extra</div>
-              <img src="https://via.placeholder.com/150" alt="Produktbild">
-              <h5 class="product-name">Geldbörse Palermo</h5>
-              <p class="product-price">€ 21,95</p>
-            </div>
-            <div class="product-cards">
-              <div class="discount-tag">-20% Extra</div>
-              <img src="https://via.placeholder.com/150" alt="Produktbild">
-              <h5 class="product-name">Geldbörse Palermo</h5>
-              <p class="product-price">€ 21,95</p>
-            </div>
-            <!-- Weitere Produktkarten analog dazu hinzufügen -->
+          </div>
+          <hr class="line">
+          <div class="info">
+            <span class="icon"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"
+                class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ SpRgR2 HlZ_Tf I_qHp3" focusable="false" aria-hidden="true">
+                <path
+                  d="m16.5 14.5-4.2-1.9c-.2-.1-.4-.1-.6 0l-4.2 1.9V6.9l2-5.6h5l2 5.9v7.3zM9 7.3v4.9l2.1-.9c.6-.3 1.2-.3 1.8 0l2.1.9V7.3l-1.6-4.5h-2.9L9 7.3z">
+                </path>
+                <path
+                  d="M20.5 22.8h-17c-1.2 0-2.2-1-2.2-2.2V19c0-.4.3-.8.8-.8s.8.3.8.8v1.5c0 .4.3.8.8.8h17c.4 0 .8-.3.8-.8V7.3c0-.1 0-.2-.1-.3l-1.5-3.8c-.1-.3-.4-.5-.7-.5H5c-.3 0-.6.2-.7.5L2.8 7c0 .1-.1.2-.1.3V10c0 .4-.3.8-.8.8s-.7-.4-.7-.8V7.3c0-.3.1-.6.2-.8l1.5-3.8c.4-.9 1.2-1.5 2.1-1.5h14c.9 0 1.7.6 2.1 1.4l1.5 3.8c.1.3.2.5.2.8v13.2c0 1.3-1.1 2.4-2.3 2.4z">
+                </path>
+                <path
+                  d="M2 7h20v1.5H2zm2.8 6.8h-4c-.5 0-.8-.4-.8-.8s.3-.8.8-.8h4c.4 0 .8.3.8.8s-.4.8-.8.8zm0 3h-4c-.5 0-.8-.4-.8-.8s.3-.8.8-.8h4c.4 0 .8.3.8.8-.1.4-.4.8-.8.8z">
+                </path>
+              </svg></span>
+            <span class="text-bold">Kostenloser Versand & Rückversand</span>
+          </div>
+          <hr class="line">
+          <div class="info">
+            <span class="icon"><svg viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor"
+                class="zds-icon RC794g X9n9TI DlJ4rT _5Yd-hZ SpRgR2 HlZ_Tf I_qHp3" focusable="false" aria-hidden="true">
+                <path
+                  d="M14.25 4.33H1.939l3.056-3.055A.75.75 0 0 0 3.934.215L.658 3.49a2.252 2.252 0 0 0 0 3.182l3.276 3.275a.75.75 0 0 0 1.06-1.06L1.94 5.83h12.31c4.557 0 8.251 3.694 8.251 8.25s-3.695 8.42-8.251 8.42h-12a.75.75 0 0 0 0 1.5h12c5.385 0 9.75-4.534 9.75-9.919s-4.365-9.75-9.75-9.75z">
+                </path>
+              </svg></span>
+            <span class="text-bold">100 Tage Rückgaberecht</span>
           </div>
         </div>
+
+        <!-- Auflistung -->
+
+        <hr class="line">
+        <div class="info">
+          <option>Material & Pflegehinweise</option>
+        </div>
+        <hr class="line">
+        <div class="info">
+          <option>Mehr zu diesem Produkt</option>
+        </div>
+        <hr class="line">
+        <div class="info">
+          <option>Passform</option>
+        </div>
+        <hr class="line">
+        <div class="row">
+          <div class="col-md-9">
+          <option>Puma </option> 
+        </div>
+        <div class="col-md-3">
+        <button class="follow-button">+ Folgen</button>
+        </div>
+      </div>
+      </div>
+  </div>
+    <div class="col-md-1"> </div>
+
+  </div>
+  <!-- Ähnliche Produkte -->
+  <div class="row">
+    <div class="col-md-12">
+      <!-- <h4>Ähnliche Produkte</h4> -->
+      <div class="container my-3">
+        <div class="ueberschrift1">
+          <h4 class="mb-2" style="font-family:Tiempos; font-size: 30px; font-weight: bold; ">Ähnliche Produkte</h4>
+        </div>
+        <div class="ueberschrift2">
+          <h3 class="mb-1" style="font:HelveticaNow;  font-size: 30px;">Empfehlungen für dich</h3>
+        </div>
+        <div class="product-container">
+
+          <!-- Produktkarte Beginn -->
+          <div class="row">
+            <div class="col-md-2">
+              <div class="card border-0" style="width: 18rem; padding-left: 0px;">
+                <img class="card-img-top" src="./images/schuh.png" alt="bild">
+                <div class="card-body">
+                  <p class="card-titel0">Puma SMASH</p>
+                  <p class="card-text01">Sneaker low - white</p>
+                  <p class="card-text02">ab 77,95 €</p>
+                  <p>
+                    <span class="card-text3">Ursprünglich:</span>
+                    <span class="card-text33"> 119,95 €</span>
+                    <span class="card-text4"> -35%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1"> </div>
+            <div class="col-md-2">
+              <div class="card border-0" style="width: 18rem; padding-left: 0px;">
+                <img class="card-img-top" src="./images/schuh.png" alt="bild">
+                <div class="card-body">
+                  <p class="card-titel0">Puma SMASH</p>
+                  <p class="card-text01">Sneaker low - white</p>
+                  <p class="card-text02">ab 77,95 €</p>
+                  <p>
+                    <span class="card-text3">Ursprünglich:</span>
+                    <span class="card-text33"> 119,95 €</span>
+                    <span class="card-text4"> -35%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1"> </div>
+
+            <div class="col-md-2">
+              <div class="card border-0" style="width: 18rem; padding-left: 0px;">
+                <img class="card-img-top" src="./images/schuh.png" alt="bild">
+                <div class="card-body">
+                  <p class="card-titel0">Puma SMASH</p>
+                  <p class="card-text01">Sneaker low - white</p>
+                  <p class="card-text02">ab 77,95 €</p>
+                  <p>
+                    <span class="card-text3">Ursprünglich:</span>
+                    <span class="card-text33"> 119,95 €</span>
+                    <span class="card-text4"> -35%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-1"> </div>
+            <div class="col-md-2">
+              <div class="card border-0" style="width: 18rem; padding-left: 0px;">
+                <img class="card-img-top" src="./images/schuh.png" alt="bild">
+                <div class="card-body">
+                  <p class="card-titel0">Puma SMASH</p>
+                  <p class="card-text01">Sneaker low - white</p>
+                  <p class="card-text02">ab 77,95 €</p>
+                  <p>
+                    <span class="card-text3">Ursprünglich:</span>
+                    <span class="card-text33"> 119,95 €</span>
+                    <span class="card-text4"> -35%</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <!-- TOP Marken auflistung -->
+          <div class="container mt-4">   <!-- mt-4 damit oberhalb ein abstand ist -->
+            <div class="row mb-3">
+              <div class="col-md-12">
+                <h3>Top Marken für Damen</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>adidas</p>
+              </div>
+              <div class="col-md-3">
+                <p>Apart</p>
+              </div>
+              <div class="col-md-3">
+                <p>Apple</p>
+              </div>
+              <div class="col-md-3">
+                <p>Asics</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>Barbour</p>
+              </div>
+              <div class="col-md-3">
+                <p>Benetton</p>
+              </div>
+              <div class="col-md-3">
+                <p>Birkenstock</p>
+              </div>
+              <div class="col-md-3">
+                <p>Calvin Klein</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>Christ Online Shop</p>
+              </div>
+              <div class="col-md-3">
+                <p>Dr. Martens</p>
+              </div>
+              <div class="col-md-3">
+                <p>Esprit</p>
+              </div>
+              <div class="col-md-3">
+                <p>Fossil</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>Gap</p>
+              </div>
+              <div class="col-md-3">
+                <p>Hugo Boss</p>
+              </div>
+              <div class="col-md-3">
+                <p>Lascana</p>
+              </div>
+              <div class="col-md-3">
+                <p>Levi's®</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3">
+                <p>Liebeskind</p>
+              </div>
+              <div class="col-md-3">
+                <p>Mac</p>
+              </div>
+              <div class="col-md-3">
+                <p>Mango Online Shop</p>
+              </div>
+              <div class="col-md-3">
+                <p>Michael Kors</p>
+              </div>
+            </div>
+          </div>
+          </div>
+          
+        
+        
       </div>
     </div>
+  </div>
 
   </div>
 

@@ -9,17 +9,8 @@ html, body {
   padding: 20px;
 }
 
-.thumbnail-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 120px; 
-  width: 80px;
-}
 
-.thumbnail-container img {
-  margin-bottom: 0px; /* Abstand zwischen den Thumbnails */
-}
+
 
 
 .arrow {
@@ -88,17 +79,49 @@ html, body {
 .gallery-container {
   padding: 20px;
 }
+
+/* fuer thumbnails links  */
+
+.thumbnail img:hover {
+  border: 3px solid black; 
+}
+
+.thumbnail-container img {
+  margin-bottom: 0px; /* Abstand zwischen den Thumbnails */
+  margin-right: 5px; /* 5px Abstand zur main-image-container */
+}
+
+
 .thumbnail-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 695px; /* Angepasste Höhe für Demo-Zwecke */
+  height: 120px; 
+  width: 100px;
 }
+
 .thumbnail img {
   width: 100%;
   height: auto;
   object-fit: cover;
 }
+
+.main-image-container {
+  width: 500px; /* Breite auf 600 Pixel festlegen */
+  height: 695px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-image {
+  width: 100%; /* Bild nimmt die volle Breite von col-md-5 ein */
+  height: auto; /* Automatische Höhe, um das Bild zu wahren */
+  max-width: none; /* Maximale Breitenbegrenzung aufheben */
+}
+
+
+
 .arrow {
   text-align: center;
   cursor: pointer;
@@ -106,11 +129,7 @@ html, body {
 .arrow svg {
   fill: #000;
 }
-.main-image {
-  height: 695px; /* Höhe des Hauptbildes */
-  object-fit: cover;
-  width: 100%;
-}
+
 
 .product-card {
   max-width: 400px;
@@ -134,10 +153,8 @@ html, body {
 .product-colors .col-4 {
   padding: 0 5px;
 }
-.product-colors img {
-  width: 100%;
-  border: 1px solid #ddd;
-  border-radius: 4px;
+.row.product-colors .col-3:first-child img {
+  border: 2px solid black; /* Hier wird eine schwarze Umrandung hinzugefügt */
 }
 .icons .col {
   text-align: center;
@@ -183,7 +200,6 @@ html, body {
     font-size: 30px;
     font-family: "Tiempos", "Times New Roman", serif;
     margin: 0;
-    margin-bottom: 5px;
 }
 
 .card-titel {
@@ -191,8 +207,10 @@ html, body {
 }
 .card-text1 {
     margin-bottom: 10px;
+    font-weight: bold; /* Fette Schrift */
+    font-family: "HelveticaNow", "Helvetica", sans-serif;
 }
-
+/* Produktbeschreibung rechts */
 .card-text2 {
     font-size: 22px;
     font-family: "HelveticaNow", "Helvetica", sans-serif;
@@ -212,6 +230,7 @@ html, body {
     font-size: 14px;
     font-family: "HelveticaNow", "Helvetica", sans-serif;
     margin: 0;
+    margin-bottom: 50px;
 }
   
 .card-text3 {
@@ -250,6 +269,64 @@ html, body {
   font-weight: bold; 
 }
 
+.follow-button {
+  background-color: white;
+  color: black;
+  padding: 5px 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.follow-button:hover {
+  background-color: gray; /* Ändert die Hintergrundfarbe beim Hovern zu Grau */
+}
+
+.inline-option {
+  display: inline-block;
+  margin-right: 10px; /* Fügt einen Abstand zwischen dem Text und dem Button hinzu */
+}
+/* aehnliche prdukte - cards */
+.card-titel0 {
+  font: 14px 'Tiempos', 'Times New Roman', serif;
+}
+.card-text {
+  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+}
+.card-titel0,
+.card-text01 {
+  margin: 0; 
+}
+.card-text02 {
+  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin-top: 7px; 
+  font-weight: bold; /* Fette Schrift */
+  color: red; 
+  margin-bottom: 0;
+}
+.card-text03 {
+  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin: 0;
+  text-decoration: line-through; 
+}
+.card-text04 {
+  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+  margin: 0;
+  color: red; 
+}
+
+/* fuer auflistung am ende */
+
+/* Überschrift "Top Marken für Damen" */
+h3 {
+  font-family: 'HelveticaNow', 'Helvetica', sans-serif;
+  font-weight: bold;
+}
+
+/* Markennamen */
+.list-group-item {
+  font-family: 'HelveticaNow', 'Helvetica', sans-serif;
+  font-size: 14px;
+}
 
 /* fuer button warenkorb und herz */
 
@@ -268,7 +345,7 @@ html, body {
     align-content: center;
     font-size: 16px;
     color: white;
-    padding: 9px 109px;
+    padding: 9px 125px;
     border: none;
     cursor: pointer;
     /* max-width: 300px;  breite */
@@ -338,11 +415,11 @@ html, body {
   
  .price-free {
     font-weight: bold;
-    margin-left: 90px;  
+    margin-left: 140px;  
   }
   .price {
     font-weight: bold;
-    margin-left: 120px;  
+    margin-left: 170px;  
   }
   
   .standard-delivery {
@@ -381,7 +458,7 @@ html, body {
 /* Dropdown button on hover & focus */
 .dropbtn:hover,
 .dropbtn:focus {
-  border: solid 2px black;
+  border: solid 3px black;
 }
 
 
@@ -396,9 +473,9 @@ html, body {
   position: absolute;
   background-color: #f6f6f6;
   border: 2px solid black;
-  
   font-family: Arial, Helvetica, sans-serif;
   z-index: 1;
+  width: 100%; /* Breite auf 300 Pixel setzen */
 }
 
 /* Links inside the dropdown */
