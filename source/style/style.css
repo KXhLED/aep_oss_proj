@@ -174,23 +174,6 @@ td {
   align-content: center;
   padding-left: 20px;
   padding-bottom: 15px;
-  size: 25%;
-}
-
-/*Table*/
-.TableDiv,
-.bottomTable {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
-}
-
-.TableDiv,
-.bottomTable,
-tr,
-td {
-  align-content: center;
-  padding-left: 20px;
-  padding-bottom: 15px;
 }
 
 .artikelAnzahl {
