@@ -272,8 +272,10 @@ html, body {
 .follow-button {
   background-color: white;
   color: black;
-  padding: 5px 10px;
-  border: 2px solid black;
+  font-size: 13px;
+  width: 70px;
+  height: 30px;
+  border: 1px solid black;
   cursor: pointer;
 }
 
@@ -345,7 +347,7 @@ h3 {
     align-content: center;
     font-size: 16px;
     color: white;
-    padding: 9px 125px;
+    padding: 9px 100px;
     border: none;
     cursor: pointer;
     /* max-width: 300px;  breite */
@@ -415,11 +417,11 @@ h3 {
   
  .price-free {
     font-weight: bold;
-    margin-left: 140px;  
+    margin-left: 105px;  
   }
   .price {
     font-weight: bold;
-    margin-left: 170px;  
+    margin-left: 130px;  
   }
   
   .standard-delivery {
