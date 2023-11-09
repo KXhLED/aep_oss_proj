@@ -3,106 +3,106 @@
 /* MOTD */
 
 /* Navbar */
-  .nav-row {
-    display: flex;
-    align-items: center;
-    margin-top: 15px;
-  }
+.nav-row {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
 
-  /* Buttons */
-  .nav-buttons-list {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+/* Buttons */
+.nav-buttons-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
 
-  .nav-buttons-list > li {
-    display: inline;
-  }
+.nav-buttons-list > li {
+  display: inline;
+}
 
-  .nav-inv-btn {
-    background: transparent;
-    border: none;
-  }
+.nav-inv-btn {
+  background: transparent;
+  border: none;
+}
 
-  /* Alignement */
-  .nav-right-aligned {
-    margin-left: auto;
-    margin-right: 225px;
-    display: flex;
-  }
+/* Alignement */
+.nav-right-aligned {
+  margin-left: auto;
+  margin-right: 225px;
+  display: flex;
+}
 
-  .nav-left-aligned {
-    margin-left: 225px;
-  }
+.nav-left-aligned {
+  margin-left: 225px;
+}
 
-  #nav-searchform {
-    height: 50px;
-    width: 300px;
-  }
+#nav-searchform {
+  height: 50px;
+  width: 300px;
+}
 
-  /* Sites */
-  #cartSite {
-    display: none;
-  }
+/* Sites */
+#cartSite {
+  display: none;
+}
 
-  #loginSite {
-    display: none;
-  }
+#loginSite {
+  display: none;
+}
 
-  .inputLabel {
-    border: 1px solid black;
-    border-collapse: collapse; 
-    font-family: Arial, Helvetica, sans-serif; 
-    font-size: 12px; 
-    font-weight: bold;
-  }
+.inputLabel {
+  border: 1px solid black;
+  border-collapse: collapse; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 12px; 
+  font-weight: bold;
+}
 
 /* /Kai */
 
 #motd-banner {
-    height: 1%;
-    display: flex;
-    justify-content: center;
-    background-color: rgb(210, 69, 30);
+  height: 1%;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(210, 69, 30);
 }
 
 #language-modal-content{
-  width: 390px !important;
+width: 390px !important;
 }
 
 
 .max-width {
-    width: 80%;
-    align-items: center;
-    justify-content: center;
-    min-width: max-content;
-    max-width: 1000px;
-    display: flex;
+  width: 80%;
+  align-items: center;
+  justify-content: center;
+  min-width: max-content;
+  max-width: 1000px;
+  display: flex;
 }
 
 .btn {
-  font-family: Arial, 'Helvetica', sans-serif;
-  font-weight: bold;
+font-family: Arial, 'Helvetica', sans-serif;
+font-weight: bold;
 }
 
 #motd-banner > div > * {
-    color: white; 
+  color: white; 
 }
 
 #motd {
-    font-family: Arial, 'Helvetica', sans-serif;
-    font-size: 12px;
-    font-weight: bold;
+  font-family: Arial, 'Helvetica', sans-serif;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 #motd-close-btn{
-    padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 #motd-banner button{
-    background-color: transparent;
-    border: none;
+  background-color: transparent;
+  border: none;
 }
 
 
@@ -110,298 +110,298 @@
 
 /* Dropdown Button */
 .dropbtn {
-  background-color: white;
-  color: black;
-  padding: 15px;
-  margin-top: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  border: solid 1px black;
-  cursor: pointer;
+background-color: white;
+color: black;
+padding: 15px;
+margin-top: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+border: solid 1px black;
+cursor: pointer;
 }
 
 /* Dropdown button on hover & focus */
 .dropbtn:hover,
 .dropbtn:focus {
-  border: solid 2px black;
+border: solid 2px black;
 }
 
 .dropdown {
-  padding-top: 15%;
+padding-top: 15%;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f6f6f6;
-  border: 2px solid black;
-  min-width: 230px;
-  font-family: Arial, Helvetica, sans-serif;
-  z-index: 1;
+display: none;
+position: absolute;
+background-color: #f6f6f6;
+border: 2px solid black;
+min-width: 230px;
+font-family: Arial, Helvetica, sans-serif;
+z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  border-bottom: 1px solid lightgray;
+color: black;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+border-bottom: 1px solid lightgray;
 }
 
 /* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #f1f1f1;
+background-color: #f1f1f1;
 }
 
 /* Show the dropdown menu (JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
-  display: block;
+display: block;
 }
 
 /*Table*/
 .TableDiv,
 .bottomTable {
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
 }
 .TableDiv,
 .bottomTable,
 tr,
 td {
-  align-content: center;
-  padding-left: 20px;
-  padding-bottom: 15px;
-  size: 25%;
+align-content: center;
+padding-left: 20px;
+padding-bottom: 15px;
+size: 25%;
 }
 /*Table*/
 .TableDiv,
 .bottomTable{
-  font-family: Arial, Helvetica, sans-serif;
-  width: 100%;
+font-family: Arial, Helvetica, sans-serif;
+width: 100%;
 }
 .TableDiv,
 .bottomTable,
 tr,
 td {
-  align-content: center;
-  padding-left: 20px;
-  padding-bottom: 15px;
+align-content: center;
+padding-left: 20px;
+padding-bottom: 15px;
 }
 
 .artikelAnzahl {
-  padding-top: 5px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: small;
-  font-weight: bold;
-  color: #696969;
+padding-top: 5px;
+font-family: Arial, Helvetica, sans-serif;
+font-size: small;
+font-weight: bold;
+color: #696969;
 }
 
 /*/Anja*/
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  ul.breadcrumb {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    list-style: none;
-    background-color: white;
-    margin-bottom: 0; /* Verhindert den unteren Abstand der ul.breadcrumb */
-    margin-left: -50px;
-    text-align: start;
-    font-weight: 700;
-    display: flex;
-  }
-  
-  ul.breadcrumb li {
-    display: inline;
-    font-size: 15px;
-  }
-  ul.breadcrumb li + li:before {
-    padding: 8px;
-    color: black;
-    content: ">\00a0";
-  }
-  ul.breadcrumb li a {
-    color: black;
-    text-decoration: none;
-  }
-  ul.breadcrumb li:nth-child(1) a:hover {
-    color: black;
-    text-decoration: underline;
-  }
-  
-  /* Aktives Element */
-  ul.breadcrumb li.active a {
-    color: grey; /* Ändern Sie die Farbe nach Ihren Wünschen */
-  }
-  
-  /* Schuhe in Grau */
-  ul.breadcrumb li:nth-child(2) a {
-    color: grey;
-  }
-  
-  h3 {
-    margin-top: 0; /* Verhindert den oberen Abstand des h2-Elements */
-    font-weight: 600;
-    font-size: 40px;
-  }
-  
-  .navList{
-    margin-left: -50px;
-  }
-  /* Stil für die Überschrift */
-  .navbar h4 {
-    color: #6328e0;; /* Textfarbe für die Überschrift ändern */
-    margin-bottom: 0;
-    font-size: 15px;
-    font-weight: 700;
-  }
-  
-  /* Styling für die Navigationsleiste */
-  .navbar ul {
-    list-style: none;
-    padding: 0;
-    margin-top: 0;
-    margin-left: 15px;
-    font-weight: 700;
-    font-size: 13px;
-  }
-  
-  /* Stil für Navigationspunkte */
-  .navbar ul li {
-    margin: 7px 0; /* Abstand zwischen den Punkten anpassen */
-  }
-  
-  /* Stil für Links */
-  .navbar ul li a {
-    text-decoration: none;
-    color: black; /* Textfarbe für untergeordnete Punkte ändern */
-  }
-  
-  /* Stil für Links beim Schweben (Hover) */
-  .navbar ul li a:hover {
-    text-decoration: underline;
-  }
-  
-  body {font-family: Arial, Helvetica, sans-serif;}
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-  /* The Modal (background) */
-  .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  }
-  
-  /* Modal Content */
-  .modal-content {
-    background-color: #fefefe;
-    margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  /* The Close Button */
-  .close {
-    color: #aaaaaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-  }
+ul.breadcrumb {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  list-style: none;
+  background-color: white;
+  margin-bottom: 0; /* Verhindert den unteren Abstand der ul.breadcrumb */
+  margin-left: -50px;
+  text-align: start;
+  font-weight: 700;
+  display: flex;
+}
 
-  
+ul.breadcrumb li {
+  display: inline;
+  font-size: 15px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: ">\00a0";
+}
+ul.breadcrumb li a {
+  color: black;
+  text-decoration: none;
+}
+ul.breadcrumb li:nth-child(1) a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/* Aktives Element */
+ul.breadcrumb li.active a {
+  color: grey; /* Ändern Sie die Farbe nach Ihren Wünschen */
+}
+
+/* Schuhe in Grau */
+ul.breadcrumb li:nth-child(2) a {
+  color: grey;
+}
+
+h3 {
+  margin-top: 0; /* Verhindert den oberen Abstand des h2-Elements */
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.navList{
+  margin-left: -50px;
+}
+/* Stil für die Überschrift */
+.navbar h4 {
+  color: #6328e0;; /* Textfarbe für die Überschrift ändern */
+  margin-bottom: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+/* Styling für die Navigationsleiste */
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 0;
+  margin-left: 15px;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+/* Stil für Navigationspunkte */
+.navbar ul li {
+  margin: 7px 0; /* Abstand zwischen den Punkten anpassen */
+}
+
+/* Stil für Links */
+.navbar ul li a {
+  text-decoration: none;
+  color: black; /* Textfarbe für untergeordnete Punkte ändern */
+}
+
+/* Stil für Links beim Schweben (Hover) */
+.navbar ul li a:hover {
+  text-decoration: underline;
+}
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 
-  
 
-  /* Style for the login button */
-  .login-button {
-    background-color: #3498db;
-    border: none;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    cursor: pointer;
-    display: inline-flex;
-    align-items: center;
+
+
+
+/* Style for the login button */
+.login-button {
+  background-color: #3498db;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
 }
 
 /* Style for the SVG icon */
 .icon {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
 }
 
 /* Style for the modal */
 .modal {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    justify-content: center;
-    align-items: center;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
 }
 
 /* Style for the modal content */
 .modal-content {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
 }
 
 /* Show the modal when the button is hovered over */
 .login-button:hover + .modal {
-    display: flex;
+  display: flex;
 }
 
 .right-btns > button {
-  height: 50px;
+height: 50px;
 }
 
 .card-titel {
-  font: 20px 'Tiempos', 'Times New Roman', serif;
+font: 20px 'Tiempos', 'Times New Roman', serif;
 }
 .card-text {
-  font: 20px 'HelveticaNow', 'Helvetica', sans-serif;
+font: 20px 'HelveticaNow', 'Helvetica', sans-serif;
 }
 .card-titel,
 .card-text1 {
-  margin: 0; 
+margin: 0; 
 }
 .card-text2 {
-  font: 18px 'HelveticaNow', 'Helvetica', sans-serif;
-  margin-top: 5px; 
-  color: red; 
+font: 18px 'HelveticaNow', 'Helvetica', sans-serif;
+margin-top: 5px; 
+color: red; 
 }
 .card-text3 {
-  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
-  margin: 0;
-  text-decoration: line-through; 
+font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+margin: 0;
+text-decoration: line-through; 
 }
 .card-text4 {
-  font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
-  margin: 0;
-  color: red; 
+font: 14px 'HelveticaNow', 'Helvetica', sans-serif;
+margin: 0;
+color: red; 
 }

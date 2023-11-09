@@ -98,8 +98,11 @@ function openCart() {
 }
 
 function openMain() {
-  document.getElementById("cartSite").style.display = "none";
-  document.getElementById("mainSite").style.display = "block";
+  window.location.href = ".\\index.html";
+}
+
+function openDetail() {
+  window.location.href = ".\\detail.html"
 }
 
 function openLogin() {
