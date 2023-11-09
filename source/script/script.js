@@ -94,19 +94,19 @@ function openCartModal1() {
 }
 
 function openCart() {
-    window.location=".\\source\\cart.html";
+    window.location="cart.html";
 }
 
 function openMain() {
-  window.location.href = "..\\index.html";
+  window.location.href = ".\\index.html";
 }
 
 function openDetail() {
-  window.location.href = ".\\source\\detail.html"
+  window.location.href = ".\\detail.html"
 }
 
 function openLogin() {
-  window.location.href = ".\\source\\login.html";
+  window.location.href = ".\\login.html";
 }
 
 class Navbar extends HTMLElement {
