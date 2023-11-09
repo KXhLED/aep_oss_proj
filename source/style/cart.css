@@ -2,29 +2,29 @@
 .cart-background {
     background-color: white;
     border: 20px solid #EDEDED;
-    margin-left: 75px;
-    margin-top: -17px;
-    width: 90%;
+    width: 80%;
     height: 350px;
+    display:grid;
+    justify-content: center;
+    justify-self: center;
+    position: absolute;
+    top: 155px;
 }
 
-.btnLogin{
-    color: orangered;
-    border: 2px solid orangered;
-    font-size: 14px;
-    background-color: white;
-    padding: 5px 0px;
-    width: 55%;
-    margin-left: 225px;
-}
-
-.btnMain{
+#btnMain{
     color: white;
     border: 2px solid orangered;
     font-size: 14px;
     background-color: orangered;
-    padding: 5px 0px;
-    width: 55%;
-    margin-left: 5px;
+    padding: 5px 5px;
+    width:300px
 }
 
+#btnLogin{
+    color: orangered;
+    border: 2px solid orangered;
+    font-size: 14px;
+    background-color: white;
+    padding: 5px 5px;
+    width:300px
+}
